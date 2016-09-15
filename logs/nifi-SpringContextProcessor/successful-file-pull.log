@@ -1,0 +1,44 @@
+2016-09-12 15:00:01,710 INFO [Flow Service Tasks Thread-2] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@1f97143f // Another save pending = false
+2016-09-12 15:00:19,609 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@d79a69b checkpointed with 1 Records and 0 Swap Files in 21 milliseconds (Stop-the-world time = 16 milliseconds, Clear Edit Logs time = 3 millis), max Transaction ID 2
+2016-09-12 15:00:26,916 INFO [pool-8-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2016-09-12 15:00:27,169 INFO [pool-8-thread-1] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7154a248 checkpointed with 0 Records and 0 Swap Files in 253 milliseconds (Stop-the-world time = 211 milliseconds, Clear Edit Logs time = 41 millis), max Transaction ID -1
+2016-09-12 15:00:27,169 INFO [pool-8-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 253 milliseconds
+2016-09-12 15:00:36,000 INFO [Flow Service Tasks Thread-2] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@1f97143f // Another save pending = false
+2016-09-12 15:00:47,412 INFO [StandardProcessScheduler Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled PutFile[id=11b1fb4e-0157-1000-b34a-e54d774e5997] to run with 1 threads
+2016-09-12 15:00:47,575 INFO [Flow Service Tasks Thread-2] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@1f97143f // Another save pending = false
+2016-09-12 15:00:50,264 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is starting
+2016-09-12 15:00:50,267 INFO [StandardProcessScheduler Thread-6] o.a.c.m.ManagedManagementStrategy JMX is enabled
+2016-09-12 15:00:50,439 INFO [StandardProcessScheduler Thread-6] o.a.c.i.converter.DefaultTypeConverter Loaded 189 type converters
+2016-09-12 15:00:50,455 INFO [StandardProcessScheduler Thread-6] o.a.c.i.DefaultRuntimeEndpointRegistry Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2016-09-12 15:00:50,591 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-09-12 15:00:50,591 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-09-12 15:00:50,599 INFO [StandardProcessScheduler Thread-6] o.a.camel.component.file.FileEndpoint Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2016-09-12 15:00:50,599 INFO [StandardProcessScheduler Thread-6] o.a.camel.component.file.FileEndpoint Using default memory based idempotent repository with cache max size: 1000
+2016-09-12 15:00:50,698 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Route: route1 started and consuming from: Endpoint[file:///Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox?noop=true]
+2016-09-12 15:00:50,699 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Total 1 routes, of which 1 are started.
+2016-09-12 15:00:50,701 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) started in 0.435 seconds
+2016-09-12 15:00:50,709 INFO [StandardProcessScheduler Thread-6] o.a.nifi.spring.SpringContextFactory Successfully instantiated Spring Application Context from 'META-INF/spring/pull-from-filedir-context.xml'
+2016-09-12 15:00:50,709 INFO [StandardProcessScheduler Thread-6] o.a.nifi.spring.SpringContextProcessor Successfully initialized Spring Application Context defined in META-INF/spring/pull-from-filedir-context.xml
+2016-09-12 15:00:50,712 INFO [StandardProcessScheduler Thread-3] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled SpringContextProcessor[id=20672f22-0157-1000-b032-297a68d1fb2c] to run with 1 threads
+2016-09-12 15:00:51,743 INFO [Camel (camel-1) thread #0 - file:///Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox] INFO Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[/Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox/msg1.txt]]]
+2016-09-12 15:00:51,880 INFO [Camel (camel-1) thread #0 - file:///Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox] INFO Exchange[ExchangePattern: InOnly, BodyType: String, Body: This is message #1. Yay!]
+2016-09-12 15:00:51,892 INFO [Camel (camel-1) thread #0 - file:///Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox] INFO Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[/Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox/msg2.txt]]]
+2016-09-12 15:00:51,909 INFO [Camel (camel-1) thread #0 - file:///Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox] INFO Exchange[ExchangePattern: InOnly, BodyType: String, Body: This is message #2. Yay, Yay!]
+2016-09-12 15:01:00,158 INFO [Provenance Maintenance Thread-2] o.a.n.p.PersistentProvenanceRepository Created new Provenance Event Writers for events starting with ID 6
+2016-09-12 15:01:01,042 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.PersistentProvenanceRepository Successfully merged 16 journal files (6 records) into single Provenance Log File ./provenance_repository/0.prov in 854 milliseconds
+2016-09-12 15:01:01,042 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.PersistentProvenanceRepository Successfully Rolled over Provenance Event file containing 86120 records
+2016-09-12 15:01:09,081 INFO [NiFi Web Server-4544] o.a.n.controller.StandardProcessorNode Stopping processor: class org.apache.nifi.spring.SpringContextProcessor
+2016-09-12 15:01:09,081 INFO [NiFi Web Server-4544] o.a.n.controller.StandardProcessorNode Stopping processor: class org.apache.nifi.processors.standard.PutFile
+2016-09-12 15:01:09,082 INFO [StandardProcessScheduler Thread-2] o.a.n.c.s.TimerDrivenSchedulingAgent Stopped scheduling SpringContextProcessor[id=20672f22-0157-1000-b032-297a68d1fb2c] to run
+2016-09-12 15:01:09,083 INFO [StandardProcessScheduler Thread-6] o.a.n.c.s.TimerDrivenSchedulingAgent Stopped scheduling PutFile[id=11b1fb4e-0157-1000-b34a-e54d774e5997] to run
+2016-09-12 15:01:09,086 INFO [StandardProcessScheduler Thread-2] o.a.n.s.bootstrap.SpringContextDelegate Closing Spring Application Context
+2016-09-12 15:01:09,087 INFO [StandardProcessScheduler Thread-2] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is shutting down
+2016-09-12 15:01:09,088 INFO [StandardProcessScheduler Thread-2] o.a.camel.impl.DefaultShutdownStrategy Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-09-12 15:01:09,094 INFO [Camel (camel-1) thread #1 - ShutdownTask] o.a.camel.impl.DefaultShutdownStrategy Route: route1 shutdown complete, was consuming from: Endpoint[file:///Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/data/inbox?noop=true]
+2016-09-12 15:01:09,094 INFO [StandardProcessScheduler Thread-2] o.a.camel.impl.DefaultShutdownStrategy Graceful shutdown of 1 routes completed in 0 seconds
+2016-09-12 15:01:09,100 INFO [StandardProcessScheduler Thread-2] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) uptime 18.835 seconds
+2016-09-12 15:01:09,100 INFO [StandardProcessScheduler Thread-2] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is shutdown in 0.012 seconds
+2016-09-12 15:01:09,101 INFO [Flow Service Tasks Thread-2] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@1f97143f // Another save pending = false
+2016-09-12 15:01:09,102 INFO [StandardProcessScheduler Thread-2] o.a.n.s.bootstrap.SpringContextDelegate Closing org.apache.nifi.spring.SpringContextFactory$SpringContextClassLoader@5118be05
+2016-09-12 15:01:09,107 INFO [StandardProcessScheduler Thread-2] o.a.n.s.bootstrap.SpringContextDelegate Successfully closed Spring Application Context and its ClassLoader.
+2016-09-12 15:01:09,107 INFO [StandardProcessScheduler Thread-2] o.a.nifi.spring.SpringContextProcessor Successfully closed Spring Application Context defined in META-INF/spring/pull-from-filedir-context.xml

@@ -1,0 +1,89 @@
+2016-09-15 14:46:20,813 INFO [pool-8-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2016-09-15 14:46:21,076 INFO [pool-8-thread-1] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@677274e7 checkpointed with 0 Records and 0 Swap Files in 263 milliseconds (Stop-the-world time = 219 milliseconds, Clear Edit Logs time = 41 millis), max Transaction ID 7
+2016-09-15 14:46:21,076 INFO [pool-8-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 263 milliseconds
+2016-09-15 14:47:44,411 INFO [Flow Service Tasks Thread-1] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@5b0f3f0e // Another save pending = false
+2016-09-15 14:47:56,483 INFO [Flow Service Tasks Thread-1] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@5b0f3f0e // Another save pending = false
+2016-09-15 14:47:59,993 INFO [StandardProcessScheduler Thread-4] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled PutFile[id=11b1fb4e-0157-1000-b34a-e54d774e5997] to run with 1 threads
+2016-09-15 14:48:00,005 INFO [Flow Service Tasks Thread-1] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@5b0f3f0e // Another save pending = false
+2016-09-15 14:48:00,130 INFO [StandardProcessScheduler Thread-6] o.s.c.s.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@be5f3eb: startup date [Thu Sep 15 14:48:00 PDT 2016]; root of context hierarchy
+2016-09-15 14:48:00,197 INFO [StandardProcessScheduler Thread-6] o.s.b.f.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [META-INF/spring/nifi-from-salesforce-context.xml]
+2016-09-15 14:48:00,293 INFO [StandardProcessScheduler Thread-6] o.s.b.f.config.PropertiesFactoryBean Loading properties file from URL [jar:file:/Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/lib_camel/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-15 14:48:00,305 INFO [StandardProcessScheduler Thread-6] o.s.i.config.IntegrationRegistrar No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-15 14:48:01,027 INFO [StandardProcessScheduler Thread-6] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-15 14:48:01,032 INFO [StandardProcessScheduler Thread-6] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-15 14:48:01,108 INFO [StandardProcessScheduler Thread-6] o.s.b.f.config.PropertiesFactoryBean Loading properties file from URL [jar:file:/Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/lib_camel/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-15 14:48:01,156 INFO [StandardProcessScheduler Thread-6] o.s.s.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService  'taskScheduler'
+2016-09-15 14:48:02,172 INFO [StandardProcessScheduler Thread-6] o.s.c.support.DefaultLifecycleProcessor Starting beans in phase 0
+2016-09-15 14:48:02,173 INFO [StandardProcessScheduler Thread-6] o.s.i.endpoint.EventDrivenConsumer Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-15 14:48:02,174 INFO [StandardProcessScheduler Thread-6] o.s.i.channel.PublishSubscribeChannel Channel 'org.springframework.context.support.ClassPathXmlApplicationContext@be5f3eb.errorChannel' has 1 subscriber(s).
+2016-09-15 14:48:02,174 INFO [StandardProcessScheduler Thread-6] o.s.i.endpoint.EventDrivenConsumer started _org.springframework.integration.errorLogger
+2016-09-15 14:48:02,188 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is starting
+2016-09-15 14:48:02,190 INFO [StandardProcessScheduler Thread-6] o.a.c.m.ManagedManagementStrategy JMX is enabled
+2016-09-15 14:48:02,309 INFO [StandardProcessScheduler Thread-6] o.a.c.i.converter.DefaultTypeConverter Loaded 189 type converters
+2016-09-15 14:48:02,321 INFO [StandardProcessScheduler Thread-6] o.a.c.i.DefaultRuntimeEndpointRegistry Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2016-09-15 14:48:02,377 INFO [StandardProcessScheduler Thread-6] o.a.camel.util.jsse.SSLContextParameters Available providers: SUN version 1.8.
+2016-09-15 14:48:02,611 INFO [StandardProcessScheduler Thread-6] o.a.c.c.s.internal.SalesforceSession Login user XXXXXXXX at Salesforce loginUrl: https://XXXXXXXX.my.salesforce.com/services/oauth2/token
+2016-09-15 14:48:04,445 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7e24a2e2 checkpointed with 1 Records and 0 Swap Files in 20 milliseconds (Stop-the-world time = 16 milliseconds, Clear Edit Logs time = 2 millis), max Transaction ID 2
+2016-09-15 14:48:21,077 INFO [pool-8-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2016-09-15 14:48:21,345 INFO [pool-8-thread-1] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@677274e7 checkpointed with 0 Records and 0 Swap Files in 268 milliseconds (Stop-the-world time = 221 milliseconds, Clear Edit Logs time = 46 millis), max Transaction ID 7
+2016-09-15 14:48:21,346 INFO [pool-8-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 268 milliseconds
+2016-09-15 14:48:59,989 WARN [StandardProcessScheduler Thread-6] o.a.n.controller.StandardProcessorNode Timed out while waiting for OnScheduled of 'SpringContextProcessor' processor to finish. An attempt is made to cancel the task via Thread.interrupt(). However it does not guarantee that the task will be canceled since the code inside current OnScheduled operation may have been written to ignore interrupts which may result in a runaway thread. This could lead to more issues, eventually requiring NiFi to be restarted. This is usually a bug in the target Processor 'SpringContextProcessor[id=11a3df03-0157-1000-dba3-1e03a1884510]' that needs to be documented, reported and eventually fixed.
+2016-09-15 14:48:59,989 ERROR [StandardProcessScheduler Thread-6] o.a.nifi.spring.SpringContextProcessor SpringContextProcessor[id=11a3df03-0157-1000-dba3-1e03a1884510] SpringContextProcessor[id=11a3df03-0157-1000-dba3-1e03a1884510] failed to invoke @OnScheduled method due to java.lang.RuntimeException: Timed out while executing one of processor's OnScheduled task.; processor will not be scheduled to run for 30 seconds: java.lang.RuntimeException: Timed out while executing one of processor's OnScheduled task.
+2016-09-15 14:48:59,993 ERROR [StandardProcessScheduler Thread-6] o.a.nifi.spring.SpringContextProcessor 
+java.lang.RuntimeException: Timed out while executing one of processor's OnScheduled task.
+	at org.apache.nifi.controller.StandardProcessorNode.invokeTaskAsCancelableFuture(StandardProcessorNode.java:1412) ~[na:na]
+	at org.apache.nifi.controller.StandardProcessorNode.access$100(StandardProcessorNode.java:96) ~[na:na]
+	at org.apache.nifi.controller.StandardProcessorNode$1.run(StandardProcessorNode.java:1240) ~[na:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_45]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_45]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_45]
+	at org.apache.nifi.controller.StandardProcessorNode.invokeTaskAsCancelableFuture(StandardProcessorNode.java:1397) ~[na:na]
+	... 9 common frames omitted
+2016-09-15 14:49:00,000 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is shutting down
+2016-09-15 14:49:00,000 ERROR [StandardProcessScheduler Thread-6] o.a.n.controller.StandardProcessorNode Failed to invoke @OnScheduled method due to java.lang.RuntimeException: Timed out while executing one of processor's OnScheduled task.
+java.lang.RuntimeException: Timed out while executing one of processor's OnScheduled task.
+	at org.apache.nifi.controller.StandardProcessorNode.invokeTaskAsCancelableFuture(StandardProcessorNode.java:1412) ~[na:na]
+	at org.apache.nifi.controller.StandardProcessorNode.access$100(StandardProcessorNode.java:96) ~[na:na]
+	at org.apache.nifi.controller.StandardProcessorNode$1.run(StandardProcessorNode.java:1240) ~[na:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_45]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_45]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_45]
+	at org.apache.nifi.controller.StandardProcessorNode.invokeTaskAsCancelableFuture(StandardProcessorNode.java:1397) ~[na:na]
+	... 9 common frames omitted
+2016-09-15 14:49:00,003 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) uptime 57.815 seconds
+2016-09-15 14:49:00,003 INFO [StandardProcessScheduler Thread-6] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is shutdown in 0.002 seconds
+2016-09-15 14:49:30,127 INFO [StandardProcessScheduler Thread-3] o.s.c.s.ClassPathXmlApplicationContext Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73505a99: startup date [Thu Sep 15 14:49:30 PDT 2016]; root of context hierarchy
+2016-09-15 14:49:30,188 INFO [StandardProcessScheduler Thread-3] o.s.b.f.xml.XmlBeanDefinitionReader Loading XML bean definitions from class path resource [META-INF/spring/nifi-from-salesforce-context.xml]
+2016-09-15 14:49:30,283 INFO [StandardProcessScheduler Thread-3] o.s.b.f.config.PropertiesFactoryBean Loading properties file from URL [jar:file:/Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/lib_camel/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-15 14:49:30,293 INFO [StandardProcessScheduler Thread-3] o.s.i.config.IntegrationRegistrar No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2016-09-15 14:49:30,979 INFO [StandardProcessScheduler Thread-3] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2016-09-15 14:49:30,984 INFO [StandardProcessScheduler Thread-3] o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2016-09-15 14:49:31,064 INFO [StandardProcessScheduler Thread-3] o.s.b.f.config.PropertiesFactoryBean Loading properties file from URL [jar:file:/Users/mfoley/projects/SalesforceNiFi/NiFi-0.6.1/nifi-1.0.0/lib_camel/spring-integration-core-4.2.5.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2016-09-15 14:49:31,121 INFO [StandardProcessScheduler Thread-3] o.s.s.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService  'taskScheduler'
+2016-09-15 14:49:31,445 INFO [StandardProcessScheduler Thread-3] o.s.c.support.DefaultLifecycleProcessor Starting beans in phase 0
+2016-09-15 14:49:31,446 INFO [StandardProcessScheduler Thread-3] o.s.i.endpoint.EventDrivenConsumer Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2016-09-15 14:49:31,446 INFO [StandardProcessScheduler Thread-3] o.s.i.channel.PublishSubscribeChannel Channel 'org.springframework.context.support.ClassPathXmlApplicationContext@73505a99.errorChannel' has 1 subscriber(s).
+2016-09-15 14:49:31,446 INFO [StandardProcessScheduler Thread-3] o.s.i.endpoint.EventDrivenConsumer started _org.springframework.integration.errorLogger
+2016-09-15 14:49:31,461 INFO [StandardProcessScheduler Thread-3] o.apache.camel.spring.SpringCamelContext Apache Camel 2.17.3 (CamelContext: camel-1) is starting
+2016-09-15 14:49:31,463 INFO [StandardProcessScheduler Thread-3] o.a.c.m.ManagedManagementStrategy JMX is enabled
+2016-09-15 14:49:31,582 INFO [StandardProcessScheduler Thread-3] o.a.c.i.converter.DefaultTypeConverter Loaded 189 type converters
+2016-09-15 14:49:31,594 INFO [StandardProcessScheduler Thread-3] o.a.c.i.DefaultRuntimeEndpointRegistry Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2016-09-15 14:49:31,651 INFO [StandardProcessScheduler Thread-3] o.a.camel.util.jsse.SSLContextParameters Available providers: SUN version 1.8.
+2016-09-15 14:49:31,872 INFO [StandardProcessScheduler Thread-3] o.a.c.c.s.internal.SalesforceSession Login user XXXXXXXX at Salesforce loginUrl: https://XXXXXXXX.my.salesforce.com/services/oauth2/token
+2016-09-15 14:49:40,151 INFO [NiFi Web Server-1601] o.a.n.controller.StandardProcessorNode Stopping processor: class org.apache.nifi.spring.SpringContextProcessor
+2016-09-15 14:49:40,151 INFO [NiFi Web Server-1601] o.a.n.controller.StandardProcessorNode Stopping processor: class org.apache.nifi.processors.standard.PutFile
+2016-09-15 14:49:40,151 INFO [StandardProcessScheduler Thread-3] o.a.n.c.s.TimerDrivenSchedulingAgent Stopped scheduling PutFile[id=11b1fb4e-0157-1000-b34a-e54d774e5997] to run
+2016-09-15 14:49:40,563 INFO [Flow Service Tasks Thread-1] o.a.nifi.controller.StandardFlowService Saved flow controller org.apache.nifi.controller.FlowController@5b0f3f0e // Another save pending = false
+2016-09-15 14:50:04,465 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7e24a2e2 checkpointed with 1 Records and 0 Swap Files in 19 milliseconds (Stop-the-world time = 16 milliseconds, Clear Edit Logs time = 2 millis), max Transaction ID 2

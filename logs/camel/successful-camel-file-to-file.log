@@ -1,0 +1,48 @@
+mfoley$ mvn camel:run
+...
+[INFO] --- camel-maven-plugin:2.17.3:run (default-cli) @ chapterMF-spring-file-copy ---
+[INFO] Using org.apache.camel.spring.Main to initiate a CamelContext
+[INFO] Starting Camel ...
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-1) is starting
+[pache.camel.spring.Main.main()] ManagedManagementStrategy      INFO  JMX is enabled
+[pache.camel.spring.Main.main()] DefaultTypeConverter           INFO  Loaded 188 type converters
+[pache.camel.spring.Main.main()] DefaultRuntimeEndpointRegistry INFO  Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[pache.camel.spring.Main.main()] FileEndpoint                   INFO  Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+[pache.camel.spring.Main.main()] FileEndpoint                   INFO  Using default memory based idempotent repository with cache max size: 1000
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Route: route1 started and consuming from: Endpoint[file:///Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox?noop=true]
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Total 1 routes, of which 1 are started.
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-1) started in 0.398 seconds
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-2) is starting
+[pache.camel.spring.Main.main()] ManagedManagementStrategy      INFO  JMX is enabled
+[pache.camel.spring.Main.main()] DefaultTypeConverter           INFO  Loaded 188 type converters
+[pache.camel.spring.Main.main()] DefaultRuntimeEndpointRegistry INFO  Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[pache.camel.spring.Main.main()] FileEndpoint                   INFO  Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+[pache.camel.spring.Main.main()] FileEndpoint                   INFO  Using default memory based idempotent repository with cache max size: 1000
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Route: route2 started and consuming from: Endpoint[file:///Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox?noop=true]
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Total 1 routes, of which 1 are started.
+[pache.camel.spring.Main.main()] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-2) started in 0.032 seconds
+[MF/spring-file-copy/data/inbox] INFO                           INFO  Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[/Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox/testmsg1.xml]]]
+[MF/spring-file-copy/data/inbox] rFileExclusiveReadLockStrategy WARN  Deleting orphaned lock file: /Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox/testmsg1.xml.camelLock
+[MF/spring-file-copy/data/inbox] INFO                           INFO  Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[/Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox/testmsg1.xml]]]
+[MF/spring-file-copy/data/inbox] INFO                           INFO  Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[/Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox/testmsg2.xml]]]
+[MF/spring-file-copy/data/inbox] INFO                           INFO  Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[/Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox/testmsg2.xml]]]
+^C
+[                      Thread-1] MainSupport$HangupInterceptor  INFO  Received hang up - stopping the main instance.
+[                      Thread-1] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-1) is shutting down
+[                      Thread-1] DefaultShutdownStrategy        INFO  Starting to graceful shutdown 1 routes (timeout 300 seconds)
+[el-1) thread #2 - ShutdownTask] DefaultShutdownStrategy        INFO  Route: route1 shutdown complete, was consuming from: Endpoint[file:///Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox?noop=true]
+[                      Thread-1] DefaultShutdownStrategy        INFO  Graceful shutdown of 1 routes completed in 0 seconds
+[                      Thread-1] MainLifecycleStrategy          INFO  CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.
+[                      Thread-1] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-1) uptime 39.464 seconds
+[                      Thread-1] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-1) is shutdown in 0.010 seconds
+[                      Thread-1] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-2) is shutting down
+[                      Thread-1] DefaultShutdownStrategy        INFO  Starting to graceful shutdown 1 routes (timeout 300 seconds)
+[el-2) thread #3 - ShutdownTask] DefaultShutdownStrategy        INFO  Route: route2 shutdown complete, was consuming from: Endpoint[file:///Users/mfoley/projects/SalesforceNiFi/Camel-2.16.3/camelinaction-2.15.6/chapterMF/spring-file-copy/data/inbox?noop=true]
+[                      Thread-1] DefaultShutdownStrategy        INFO  Graceful shutdown of 1 routes completed in 0 seconds
+[                      Thread-1] MainLifecycleStrategy          INFO  CamelContext: camel-2 has been shutdown, triggering shutdown of the JVM.
+[                      Thread-1] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-2) uptime 39.068 seconds
+[                      Thread-1] SpringCamelContext             INFO  Apache Camel 2.17.3 (CamelContext: camel-2) is shutdown in 0.003 seconds
